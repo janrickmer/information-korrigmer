@@ -6,6 +6,7 @@
 <title>KORRIGMER – Faire Klausurkorrektur in der Oberstufe</title>
 <meta name="description" content="KORRIGMER macht die Korrektur von Klausuren objektiv, nachvollziehbar und vergleichbar – und verarbeitet alle Daten lokal im Browser, ohne Übertragung an einen Server.">
 <meta name="theme-color" content="#ffffff">
+<meta name="color-scheme" content="light">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23ffffff'/%3E%3Ctext x='16' y='24' font-family='Georgia,serif' font-size='22' font-weight='bold' text-anchor='middle' fill='%2399741B'%3EK%3C/text%3E%3C/svg%3E">
 <link rel="preload" href="assets/fonts/work-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/site.css">
@@ -24,8 +25,8 @@
     <a class="wordmark" href="#top" aria-label="KORRIGMER – zum Seitenanfang"><svg viewBox="0 0 442.88 47.88" aria-hidden="true"><use href="#wm"/></svg></a>
     <nav class="nav__links" aria-label="Hauptnavigation">
       <a href="#problem">Problem</a>
-      <a href="#ablauf">Ablauf</a>
       <a href="#video">Video</a>
+      <a href="#ablauf">Ablauf</a>
       <a href="#datenschutz">Datenschutz</a>
       <a class="button button--small" href="#zugang">KORRIGMER öffnen</a>
     </nav>
@@ -33,15 +34,14 @@
 </header>
 
 <main id="inhalt">
-<span id="top"></span>
 
 <!-- ===== Hero ===== -->
 <section class="hero" aria-labelledby="h-hero">
   <div class="wrap">
     <div class="hero__copy">
       <h1 id="h-hero" class="display lines"><span class="line"><span data-line style="--i:0">Faire Korrektur.</span></span><span class="line"><span data-line style="--i:1">Per Klick.</span></span></h1>
-      <p class="lead hero__lead" data-rise style="--i:1">Für textintensive Klausuren: Sie treffen das pädagogische Urteil je Kriterium, KORRIGMER übernimmt das Rechnen – objektiv, nachvollziehbar und vergleichbar.</p>
-      <div class="actions" data-rise style="--i:2">
+      <p class="lead hero__lead">KORRIGMER macht die Korrektur textintensiver Klausuren objektiv, nachvollziehbar und vergleichbar: Sie treffen nur noch das pädagogische Urteil je Kriterium, das Rechnen übernimmt das Tool.</p>
+      <div class="actions">
         <a class="button" href="https://korrigmer.janrickmer.de/" target="_blank" rel="noopener noreferrer">Oberstufe öffnen <svg aria-hidden="true"><use href="#arrow"/></svg></a>
         <a class="link" href="https://korrigmer-sek1.janrickmer.de/" target="_blank" rel="noopener noreferrer">Sek I öffnen</a>
       </div>
@@ -49,7 +49,7 @@
 
     <div class="stage">
       <div class="stage__inner">
-        <p class="stage__note"><strong>Probieren Sie es aus:</strong> Ändern Sie einen Erfüllungsgrad. Fiktive Beispielklausur, gerechnet wie in KORRIGMER.</p>
+        <p class="stage__note"><strong>Probieren Sie es aus:</strong> Ändern Sie einen Erfüllungsgrad, die Klausur steht gerade bei <strong data-out="np">10</strong>&nbsp;Punkten. Fiktive Oberstufenklausur, gerechnet wie in KORRIGMER.</p>
         <div class="ui-card frag-grade" data-ui>
           <p class="ui-context">Q3 / 12b · Politik und Wirtschaft · Jahrgang 12 · Mila Sommer</p>
           <h2 class="ui-title">Aufgabe 3 <span>(40 erreichbare Bewertungseinheiten)</span></h2>
@@ -66,26 +66,26 @@
               <tbody>
                 <tr>
                   <td data-label="Kriterium"><span class="ui-krit">Entwickelt ein begründetes eigenes Urteil</span></td>
-                  <td data-label="Einordnung" class="ui-ein" data-ein="0"></td>
-                  <td data-label="Erfüllt"><select data-erf="0" aria-label="Erfüllungsgrad: Entwickelt ein begründetes eigenes Urteil"></select></td>
+                  <td data-label="Einordnung" class="ui-ein fb-good" data-ein="0">Diese Erwartung wurde in einem guten Maße erfüllt.</td>
+                  <td data-label="Erfüllt"><select data-erf="0" aria-label="Erfüllungsgrad: Entwickelt ein begründetes eigenes Urteil"><option value="0">0 %</option><option value="20">20 %</option><option value="27">27 %</option><option value="33">33 %</option><option value="40">40 %</option><option value="45">45 %</option><option value="50">50 %</option><option value="55">55 %</option><option value="60">60 %</option><option value="65">65 %</option><option value="70" selected>70 %</option><option value="75">75 %</option><option value="80">80 %</option><option value="85">85 %</option><option value="90">90 %</option><option value="95">95 %</option><option value="100">100 %</option></select></td>
                   <td data-label="Gewichtung" class="ui-gew"><b>40</b><span>%</span></td>
                 </tr>
                 <tr>
                   <td data-label="Kriterium"><span class="ui-krit">Wägt Pro- und Kontra-Argumente kriteriengeleitet ab</span></td>
-                  <td data-label="Einordnung" class="ui-ein" data-ein="1"></td>
-                  <td data-label="Erfüllt"><select data-erf="1" aria-label="Erfüllungsgrad: Wägt Pro- und Kontra-Argumente kriteriengeleitet ab"></select></td>
+                  <td data-label="Einordnung" class="ui-ein fb-ok" data-ein="1">Diese Erwartung wurde im befriedigenden Maße erfüllt. Es sind einige Lücken erkennbar.</td>
+                  <td data-label="Erfüllt"><select data-erf="1" aria-label="Erfüllungsgrad: Wägt Pro- und Kontra-Argumente kriteriengeleitet ab"><option value="0">0 %</option><option value="20">20 %</option><option value="27">27 %</option><option value="33">33 %</option><option value="40">40 %</option><option value="45">45 %</option><option value="50">50 %</option><option value="55" selected>55 %</option><option value="60">60 %</option><option value="65">65 %</option><option value="70">70 %</option><option value="75">75 %</option><option value="80">80 %</option><option value="85">85 %</option><option value="90">90 %</option><option value="95">95 %</option><option value="100">100 %</option></select></td>
                   <td data-label="Gewichtung" class="ui-gew"><b>35</b><span>%</span></td>
                 </tr>
                 <tr>
                   <td data-label="Kriterium"><span class="ui-krit">Berücksichtigt die Perspektive verschiedener Akteure</span></td>
-                  <td data-label="Einordnung" class="ui-ein" data-ein="2"></td>
-                  <td data-label="Erfüllt"><select data-erf="2" aria-label="Erfüllungsgrad: Berücksichtigt die Perspektive verschiedener Akteure"></select></td>
+                  <td data-label="Einordnung" class="ui-ein fb-good" data-ein="2">Diese Erwartung wurde in einem guten Maße erfüllt.</td>
+                  <td data-label="Erfüllt"><select data-erf="2" aria-label="Erfüllungsgrad: Berücksichtigt die Perspektive verschiedener Akteure"><option value="0">0 %</option><option value="20">20 %</option><option value="27">27 %</option><option value="33">33 %</option><option value="40">40 %</option><option value="45">45 %</option><option value="50">50 %</option><option value="55">55 %</option><option value="60">60 %</option><option value="65">65 %</option><option value="70">70 %</option><option value="75">75 %</option><option value="80" selected>80 %</option><option value="85">85 %</option><option value="90">90 %</option><option value="95">95 %</option><option value="100">100 %</option></select></td>
                   <td data-label="Gewichtung" class="ui-gew"><b>25</b><span>%</span></td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div class="ui-result" aria-live="polite">
+          <div class="ui-result" aria-live="polite" aria-atomic="true">
             <span>Aufgabe 3: <strong data-out="a3">27</strong> von 40 Bewertungseinheiten</span>
             <span>Gesamt mit Aufgabe 1 und 2: <strong data-out="total">71</strong> von 100 (<strong data-out="pct">71</strong>&nbsp;%)</span>
             <span class="ui-final">Erreichte Punktzahl: <span class="big" data-out="np">10</span> Punkte</span>
@@ -110,7 +110,7 @@
       <div class="rows__body">
         <p data-reveal style="--i:1">Wer textintensive Klausuren korrigiert, kennt den Konflikt: Die Korrektur frisst Zeit – und zugleich will man sich entlang des Erwartungshorizonts möglichst objektiv und kriteriengeleitet durch jede Arbeit arbeiten. Erschwerend kommt hinzu, dass nicht jedes Kriterium gleich viel zählt und sauber gegen die erreichbaren Bewertungseinheiten verrechnet werden muss.</p>
         <div class="contrast">
-          <div class="contrast__item" data-reveal style="--i:2">
+          <div class="contrast__item contrast__item--quiet" data-reveal style="--i:2">
             <h3 class="sub">Nicht beim Rechnen.</h3>
             <p>Ein Rechenfehler ist ärgerlich, aber auffindbar und korrigierbar – hier lauert nicht das eigentliche Problem.</p>
           </div>
@@ -169,7 +169,7 @@
     </div>
     <div class="player" data-reveal style="--i:2">
       <video id="vid" controls preload="none" playsinline width="1280" height="720" aria-label="Erklärvideo „Objektive Korrektur“">
-        <source data-src="assets/video/korrigmer-erklaervideo.mp4" type="video/mp4">
+        <source src="assets/video/korrigmer-erklaervideo.mp4" type="video/mp4">
       </video>
       <button class="player__cover" id="vidCover" type="button" aria-label="Erklärvideo „Objektive Korrektur“ abspielen, Dauer 8 Minuten 58 Sekunden">
         <img class="player__bg" src="assets/img/video-cover.webp" width="1920" height="1080" alt="" loading="lazy" decoding="async">
@@ -186,23 +186,33 @@
 <section class="flow" id="ablauf" aria-labelledby="h-ablauf">
   <div class="wrap">
     <div class="grid">
+      <div class="flow__aside">
       <div class="flow__head">
         <h2 id="h-ablauf" class="head" data-reveal>In vier Schritten zur fairen Bewertung</h2>
         <p data-reveal style="--i:1">Sie fällen nie mehr ein pauschales Gesamturteil – Sie treffen immer nur eine einzige, überschaubare Entscheidung. Das Zusammenführen übernimmt das Tool und hält es über alle Arbeiten hinweg einheitlich.</p>
         <p class="small muted" data-reveal style="--i:2">Alle Bildschirme zeigen die echte Anwendung mit einer fiktiven Beispielklausur.</p>
       </div>
+      <nav class="flow__nav" aria-label="Die vier Schritte">
+        <ol>
+          <li><a href="#ablauf-fundament">Rahmendaten festlegen</a></li>
+          <li><a href="#ablauf-kriterien">Kriterien und Gewichtung</a></li>
+          <li><a href="#ablauf-korrigieren">Korrigieren</a></li>
+          <li><a href="#ablauf-feedback">Feedback ausgeben</a></li>
+        </ol>
+      </nav>
+      </div>
       <ol class="flow__list">
-        <li class="flow__step">
+        <li class="flow__step" id="ablauf-fundament">
           <h3 class="sub" data-reveal>Zuerst legen Sie das Fundament.</h3>
           <p data-reveal style="--i:1">Auf der ersten Seite hinterlegen Sie die Rahmendaten zu Lerngruppe und Klausur: die Anzahl der Aufgaben sowie deren Gewichtung beziehungsweise die je Aufgabe erreichbaren Bewertungseinheiten. Damit steht das Gerüst, an dem sich alles Weitere orientiert.</p>
           <figure class="flow__call shot shot--fit" style="--fit:516px; --i:2" data-reveal>
             <picture><source media="(max-width: 40rem)" srcset="assets/img/app-rahmendaten-mobil.webp" width="720" height="842"><img src="assets/img/app-rahmendaten.webp" width="1032" height="830" alt="KORRIGMER, Einrichten: Formular mit Klasse/Kurs Q3 / 12b, Fach Politik und Wirtschaft, Jahrgang 12 und drei Aufgaben" loading="lazy" decoding="async"></picture>
           </figure>
           <figure class="desk-only flow__resp shot shot--fit" style="--fit:270px; --i:3" data-reveal>
-            <img src="assets/img/app-bewertungseinheiten.webp" width="540" height="372" alt="Erreichbare Bewertungseinheiten je Aufgabe: Aufgabe 1 mit 25, Aufgabe 2 mit 35, Aufgabe 3 mit 40" loading="lazy" decoding="async">
+            <img src="assets/img/app-bewertungseinheiten.webp" width="526" height="372" alt="Erreichbare Bewertungseinheiten je Aufgabe: Aufgabe 1 mit 25, Aufgabe 2 mit 35, Aufgabe 3 mit 40" loading="lazy" decoding="async">
           </figure>
         </li>
-        <li class="flow__step">
+        <li class="flow__step" id="ablauf-kriterien">
           <h3 class="sub" data-reveal>Dann definieren Sie Kriterien und Gewichtung.</h3>
           <p data-reveal style="--i:1">Einmalig formulieren Sie sämtliche Bewertungskriterien je Aufgabe und legen fest, welchen prozentualen Anteil ein Kriterium an der Gewichtung innerhalb seiner Aufgabe ausmacht. Diese einmalige Definition ist der eigentliche Hebel – sie macht die Bewertung über alle Arbeiten hinweg konsistent.</p>
           <figure class="desk-only flow__call shot" data-reveal style="--i:2">
@@ -210,7 +220,7 @@
           </figure>
           <p class="hint" data-reveal style="--i:3"><strong>Nur für Sie:</strong> Diese Prozentwerte und die Gewichtung sehen die Schülerinnen und Schüler nie – sie dienen nur der internen Berechnung.</p>
         </li>
-        <li class="flow__step">
+        <li class="flow__step" id="ablauf-korrigieren">
           <h3 class="sub" data-reveal>Danach korrigieren Sie schlank.</h3>
           <p data-reveal style="--i:1">Pro Kriterium wählen Sie über ein Dropdown, zu wie viel Prozent die Leistung erfüllt ist. KORRIGMER errechnet daraus die exakt erreichten Bewertungseinheiten und summiert sie je Aufgabe. Sie treffen dabei immer nur eine sachliche Einschätzung: Wie gut ist dieses eine Kriterium erfüllt? Zum Schluss tragen Sie Vor- und Nachnamen, die Zahl der sprachlichen Fehler und die Wortzahl ein – daraus berechnet das Tool automatisch den Fehlerindex.</p>
           <figure class="desk-only flow__call shot" data-reveal style="--i:2">
@@ -228,14 +238,14 @@
     </div>
     <div class="flow__final">
       <figure class="shot" data-reveal style="--i:2">
-          <picture><source media="(max-width: 40rem)" srcset="assets/img/app-ergebnis-mobil.webp" width="720" height="1233"><img src="assets/img/app-ergebnis.webp" width="1912" height="1030" alt="Zusammenfassung: 20, 24 und 27 Bewertungseinheiten, gesamt 71 von 100 (71 Prozent), Fehlerindex 1,19 ohne Abzug, erreichte Punktzahl 10 Punkte" loading="lazy" decoding="async"></picture>
-          <figcaption>Die Zusammenfassung für Sie.</figcaption>
-        </figure>
-        <figure class="shot" data-reveal style="--i:3">
-          <img src="assets/img/app-rueckmeldebogen.webp" width="1454" height="2210" alt="Der fertige Rückmeldebogen für Mila Sommer: je Kriterium nur die Einordnung als Text, darunter Bewertungseinheiten, Fehlerindex und 10 Punkte" loading="lazy" decoding="async">
-          <figcaption>Der Rückmeldebogen für die Schülerin.</figcaption>
-        </figure>
-      </div>
+        <picture><source media="(max-width: 40rem)" srcset="assets/img/app-ergebnis-mobil.webp" width="720" height="1233"><img src="assets/img/app-ergebnis.webp" width="1912" height="1030" alt="Zusammenfassung: 20, 24 und 27 Bewertungseinheiten, gesamt 71 von 100 (71 Prozent), Fehlerindex 1,19 ohne Abzug, erreichte Punktzahl 10 Punkte" loading="lazy" decoding="async"></picture>
+        <figcaption>Die Zusammenfassung für Sie.</figcaption>
+      </figure>
+      <figure class="shot" data-reveal style="--i:3">
+        <a class="shot__zoom" href="assets/img/app-rueckmeldebogen.webp" tabindex="-1" aria-hidden="true"><img src="assets/img/app-rueckmeldebogen.webp" srcset="assets/img/app-rueckmeldebogen-1080.webp 1080w, assets/img/app-rueckmeldebogen.webp 1454w" sizes="(max-width: 64rem) 100vw, 40vw" width="1454" height="2210" alt="Der fertige Rückmeldebogen für Mila Sommer: je Kriterium nur die Einordnung als Text, darunter Bewertungseinheiten, Fehlerindex und 10 Punkte" loading="lazy" decoding="async"></a>
+        <figcaption>Der Rückmeldebogen für die Schülerin. <a class="link" href="assets/img/app-rueckmeldebogen.webp">In voller Größe öffnen</a></figcaption>
+      </figure>
+    </div>
   </div>
 </section>
 
@@ -244,7 +254,7 @@
   <div class="wrap">
     <div class="see__head">
       <h2 id="h-see" class="head" data-reveal>Was Schülerinnen und Schüler sehen</h2>
-      <p data-reveal style="--i:1">Die Mechanik bleibt im Hintergrund; sichtbar wird nur, was die Lernenden wirklich weiterbringt. Ändern Sie rechts eine Einschätzung und sehen Sie, was davon auf dem Bogen ankommt.</p>
+      <p data-reveal style="--i:1">Die Mechanik bleibt im Hintergrund; sichtbar wird nur, was die Lernenden wirklich weiterbringt. Ändern Sie eine Einschätzung und sehen Sie, was davon auf dem Bogen ankommt.</p>
     </div>
     <div class="panel" data-reveal style="--i:2">
       <div class="panel__sheet">
@@ -259,9 +269,9 @@
           <table>
             <thead><tr><th scope="col">Kriterium</th><th scope="col">Einordnung</th></tr></thead>
             <tbody>
-              <tr><td>Entwickelt ein begründetes eigenes Urteil</td><td data-ein="0"></td></tr>
-              <tr><td>Wägt Pro- und Kontra-Argumente kriteriengeleitet ab</td><td data-ein="1"></td></tr>
-              <tr><td>Berücksichtigt die Perspektive verschiedener Akteure</td><td data-ein="2"></td></tr>
+              <tr><td>Entwickelt ein begründetes eigenes Urteil</td><td data-ein="0">Diese Erwartung wurde in einem guten Maße erfüllt.</td></tr>
+              <tr><td>Wägt Pro- und Kontra-Argumente kriteriengeleitet ab</td><td data-ein="1">Diese Erwartung wurde im befriedigenden Maße erfüllt. Es sind einige Lücken erkennbar.</td></tr>
+              <tr><td>Berücksichtigt die Perspektive verschiedener Akteure</td><td data-ein="2">Diese Erwartung wurde in einem guten Maße erfüllt.</td></tr>
             </tbody>
           </table>
           <p class="sheet__be">Erreichte Bewertungseinheiten: <span data-out="a3">27</span> von 40</p>
@@ -277,15 +287,15 @@
         <p>Erfüllungsgrade und Gewichtung erscheinen nicht auf dem Bogen.</p>
         <div class="ctrl">
           <label class="ctrl__name" for="c-0">Begründetes eigenes Urteil <small>Gewichtung 40&nbsp;%</small></label>
-          <select id="c-0" data-erf="0"></select>
+          <select id="c-0" data-erf="0"><option value="0">0 %</option><option value="20">20 %</option><option value="27">27 %</option><option value="33">33 %</option><option value="40">40 %</option><option value="45">45 %</option><option value="50">50 %</option><option value="55">55 %</option><option value="60">60 %</option><option value="65">65 %</option><option value="70" selected>70 %</option><option value="75">75 %</option><option value="80">80 %</option><option value="85">85 %</option><option value="90">90 %</option><option value="95">95 %</option><option value="100">100 %</option></select>
         </div>
         <div class="ctrl">
           <label class="ctrl__name" for="c-1">Pro und Kontra abgewogen <small>Gewichtung 35&nbsp;%</small></label>
-          <select id="c-1" data-erf="1"></select>
+          <select id="c-1" data-erf="1"><option value="0">0 %</option><option value="20">20 %</option><option value="27">27 %</option><option value="33">33 %</option><option value="40">40 %</option><option value="45">45 %</option><option value="50">50 %</option><option value="55" selected>55 %</option><option value="60">60 %</option><option value="65">65 %</option><option value="70">70 %</option><option value="75">75 %</option><option value="80">80 %</option><option value="85">85 %</option><option value="90">90 %</option><option value="95">95 %</option><option value="100">100 %</option></select>
         </div>
         <div class="ctrl">
           <label class="ctrl__name" for="c-2">Perspektive der Akteure <small>Gewichtung 25&nbsp;%</small></label>
-          <select id="c-2" data-erf="2"></select>
+          <select id="c-2" data-erf="2"><option value="0">0 %</option><option value="20">20 %</option><option value="27">27 %</option><option value="33">33 %</option><option value="40">40 %</option><option value="45">45 %</option><option value="50">50 %</option><option value="55">55 %</option><option value="60">60 %</option><option value="65">65 %</option><option value="70">70 %</option><option value="75">75 %</option><option value="80" selected>80 %</option><option value="85">85 %</option><option value="90">90 %</option><option value="95">95 %</option><option value="100">100 %</option></select>
         </div>
         <div class="ctrl">
           <label class="ctrl__name" for="c-err">Sprachliche Fehler</label>
@@ -295,6 +305,7 @@
           <label class="ctrl__name" for="c-words">Wörter</label>
           <input id="c-words" class="ctrl__num" type="number" inputmode="numeric" min="1" max="99999" step="1" value="1180">
         </div>
+        <p class="sr-only" role="status" aria-live="polite" aria-atomic="true" data-status></p>
         <p class="panel__foot">Aufgabe 1 und 2 bleiben in diesem Beispiel fest (20 und 24 Bewertungseinheiten). <a class="link" href="#ablauf-feedback">Den ganzen Bogen ansehen</a></p>
       </div>
     </div>
@@ -309,13 +320,13 @@
       </div>
     </div>
     <p class="see__foot" data-reveal>Der pädagogische Fokus bleibt vollständig auf dem inhaltlichen Feedback – nicht auf dem Rechnen.</p>
+    <p class="see__close" data-reveal style="--i:1">KORRIGMER nimmt Ihnen das pädagogische Urteil nicht ab – das bleibt, wo es hingehört. Es sorgt aber dafür, dass dieses Urteil nur dort gefragt ist, wo Sie es sachlich treffen können: auf der Ebene des einzelnen Kriteriums.</p>
   </div>
 </section>
 
 <!-- ===== Datenschutz & Praxis ===== -->
 <section class="privacy" id="datenschutz" aria-labelledby="h-daten">
   <div class="wrap">
-    <p class="lead privacy__lead" data-reveal>KORRIGMER nimmt Ihnen das pädagogische Urteil nicht ab – das bleibt, wo es hingehört. Es sorgt aber dafür, dass dieses Urteil nur dort gefragt ist, wo Sie es sachlich treffen können: auf der Ebene des einzelnen Kriteriums.</p>
     <div class="tiles">
       <div class="tile tile--lead" data-reveal>
         <h2 id="h-daten" class="head">Ihre Daten gehören Ihnen</h2>
@@ -326,7 +337,7 @@
         <p>Der fertige Rückmeldebogen wird ausschließlich auf Ihrem eigenen Gerät gespeichert.</p>
       </div>
       <div class="tile tile--img" data-reveal style="--i:2">
-        <img src="assets/img/archiv-etui.webp" width="900" height="900" alt="Geöffnetes Etui aus grünem Rochenleder mit Lineal und Zirkeln aus Messing, ein Taschen-Reißzeug von Peter Dollond, London, um 1755–60" loading="lazy" decoding="async">
+        <img src="assets/img/archiv-etui.webp" width="900" height="900" alt="Geöffnetes Etui aus grünem Rochenleder mit zwei Linealen aus Messing und Elfenbein und mehreren Zirkeln, ein Taschen-Reißzeug von Peter Dollond, London, um 1755–60" loading="lazy" decoding="async">
       </div>
       <div class="tile" data-reveal style="--i:1">
         <h3>Zugriffssperre per Code</h3>
@@ -336,7 +347,7 @@
         <h3>Ausdrucken und unterschreiben</h3>
         <p>Sie können den Bogen unkompliziert ausdrucken, an der gekennzeichneten Stelle unterschreiben und bei der Rückgabe übergeben.</p>
       </div>
-      <div class="tile tile--dark tile--wide" data-reveal style="--i:3">
+      <div class="tile tile--wide" data-reveal style="--i:3">
         <h3>Auf Dienstgeräten</h3>
         <p>Jede Lehrkraft sollte bei der Nutzung eigenständig an die Verwendung von Dienstgeräten denken, um die Datenschutzvorgaben bestmöglich einzuhalten.</p>
       </div>
@@ -363,9 +374,9 @@
         <div class="version" data-reveal style="--i:1">
           <div>
             <h3>KORRIGMER – Sek I</h3>
-            <p>Für Klassenarbeiten und Leistungsnachweise in der Sekundarstufe I am Gymnasium.</p>
+            <p>Für Klassenarbeiten und Leistungsnachweise in der Sekundarstufe&nbsp;I am Gymnasium.</p>
           </div>
-          <a class="button" href="https://korrigmer-sek1.janrickmer.de/" target="_blank" rel="noopener noreferrer">Sek I öffnen <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+          <a class="button button--ink" href="https://korrigmer-sek1.janrickmer.de/" target="_blank" rel="noopener noreferrer">Sek I öffnen <svg aria-hidden="true"><use href="#arrow"/></svg></a>
         </div>
         <p class="versions__note">Die Links öffnen die jeweilige Web-Anwendung in einem neuen Tab.</p>
       </div>
@@ -389,8 +400,8 @@
 <footer class="foot">
   <div class="foot__grid">
     <div class="ftile ftile--statement">
-      <p>Eine Web-Anwendung zur fairen, kriteriengeleiteten Klausurkorrektur – sie verarbeitet alle Daten lokal im Browser, ohne Übertragung an einen Server. Entwickelt von Jan-Rickmer Feindt, Gymnasiallehrer aus Kassel.</p>
-      <p class="small-print">KORRIGMER wird nicht kommerziell zur Verfügung gestellt; die anbietende Person übernimmt daher keine Haftung. Jede Lehrkraft sollte bei der Nutzung eigenständig an die Verwendung von Dienstgeräten denken, um die Datenschutzvorgaben bestmöglich einzuhalten.</p>
+      <p>Eine Web-Anwendung zur fairen, kriteriengeleiteten Klausurkorrektur. Entwickelt von Jan-Rickmer Feindt, Gymnasiallehrer aus Kassel.</p>
+      <p class="small-print">KORRIGMER wird nicht kommerziell zur Verfügung gestellt; die anbietende Person übernimmt daher keine Haftung.</p>
     </div>
     <nav class="ftile ftile--nav" aria-label="Seitenübersicht">
       <ul class="flist">
@@ -398,7 +409,7 @@
         <li><a href="#loesung">Die Lösung</a></li>
         <li><a href="#video">Video</a></li>
         <li><a href="#ablauf">Ablauf</a></li>
-        <li><a href="#transparenz">Was Schüler sehen</a></li>
+        <li><a href="#transparenz">Was Lernende sehen</a></li>
         <li><a href="#datenschutz">Datenschutz</a></li>
         <li><a href="#zugang">Zugang</a></li>
       </ul>
@@ -408,15 +419,11 @@
       <p class="small-print">Copyright Jan-Rickmer Feindt</p>
     </div>
     <div class="ftile ftile--credits">
-      <p><strong>Bildnachweise:</strong> <a href="https://www.metmuseum.org/art/collection/search/629597">„Balance scale“</a>, Henry N. Hooper and Company, um 1845–55; <a href="https://www.metmuseum.org/art/collection/search/473394">„Wooden Box with Bronze Balance Scale“</a>, Ägypten, 500–600; <a href="https://www.metmuseum.org/art/collection/search/204745">„Scales and weights“</a>, wohl 18. Jahrhundert; <a href="https://www.metmuseum.org/art/collection/search/198857">„Pocket set of drawing instruments“</a>, Peter Dollond, um 1755–60; alle The Metropolitan Museum of Art, New York, gemeinfrei (<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0</a>). <a href="https://commons.wikimedia.org/wiki/File:Faber_Castell_67_54_Darmstadt_slide_rule_no_cursor_slide_front.jpg">„Faber Castell 67 54 Darmstadt slide rule“</a>, Foto: Slashme, Wikimedia Commons, CC0. Alle Bilder als Ausschnitte. Bildschirmfotos: KORRIGMER mit einer fiktiven Beispielklausur. Schrift: Work Sans, <a href="assets/fonts/OFL.txt">SIL Open Font License</a>.</p>
+      <p><strong>Bildnachweise:</strong> <a href="https://www.metmuseum.org/art/collection/search/629597" lang="en">„Balance scale“</a>, Henry N. Hooper and Company, um 1845–55; <a href="https://www.metmuseum.org/art/collection/search/473394" lang="en">„Wooden Box with Bronze Balance Scale“</a>, Ägypten, 500–600; <a href="https://www.metmuseum.org/art/collection/search/204745" lang="en">„Scales and weights“</a>, wohl 18. Jahrhundert; <a href="https://www.metmuseum.org/art/collection/search/198857" lang="en">„Pocket set of drawing instruments“</a>, Peter Dollond, um 1755–60; alle: The Metropolitan Museum of Art, New York, gemeinfrei (<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0</a>). <a href="https://commons.wikimedia.org/wiki/File:Faber_Castell_67_54_Darmstadt_slide_rule_no_cursor_slide_front.jpg" lang="en">„Faber Castell 67 54 Darmstadt slide rule no cursor slide front“</a>, Foto: Slashme, Wikimedia Commons, CC0. Teils als Ausschnitte. Bildschirmfotos: KORRIGMER mit einer fiktiven Beispielklausur. Schrift: Work Sans, <a href="assets/fonts/OFL.txt">SIL Open Font License</a>.</p>
     </div>
     <div class="ftile ftile--mark" aria-hidden="true">
       <svg viewBox="0 0 442.88 47.88"><use href="#wm"/></svg>
     </div>
-    <a class="ftile ftile--go" href="https://korrigmer.janrickmer.de/" target="_blank" rel="noopener noreferrer">
-      <span>Oberstufe öffnen</span>
-      <svg aria-hidden="true"><use href="#arrow"/></svg>
-    </a>
   </div>
 </footer>
 
