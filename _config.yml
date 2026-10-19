@@ -1,0 +1,4 @@
+# GitHub Pages: Entwicklungsnotizen nicht als Seiten ausliefern.
+exclude:
+  - PRODUCT.md
+  - DESIGN.md

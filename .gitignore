@@ -1,0 +1,6 @@
+# Rohdownloads der Archivbilder (verkleinerte Fassungen liegen in assets/img)
+.src-img/
+# Prüf-Screenshots und Arbeitsdateien der Design-Werkzeuge
+.taste-skill/inspect/
+.impeccable/review/
+.impeccable/questions/
