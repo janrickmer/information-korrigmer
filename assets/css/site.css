@@ -215,11 +215,6 @@ h3.sub { font-size: var(--step-lead); font-weight: 500; line-height: 1.3; letter
   max-width: 46ch; margin-inline: auto; text-align: center;
   font-size: clamp(1.5rem, 1rem + 1.6vw, 2.25rem); line-height: 1.3; letter-spacing: -0.015em; font-weight: 400;
 }
-.thumb {
-  display: inline-block; height: 1.05em; width: 1.45em; vertical-align: -0.2em; margin: 0 0.04em 0 0.22em;
-  object-fit: cover; background: var(--surface);
-}
-.thumb--wide { width: 1.85em; }
 
 /* ---------- Zeilen für längere Texte (Problem im Detail) ---------- */
 .rows { padding-bottom: var(--section); }
@@ -493,7 +488,6 @@ h3.sub { font-size: var(--step-lead); font-weight: 500; line-height: 1.3; letter
   .stage { --dogear: 4.5rem; padding: 1rem 0 1.5rem 1rem; }
   .stage__note { padding-left: 3.75rem; }
   .statement__text { text-align: left; font-size: 1.5rem; max-width: none; }
-  .thumb { display: none; }
   .contrast, .see__pair { grid-template-columns: 1fr; }
   .flow__resp { margin-left: 0; }
   .desk-only { display: none; }

@@ -24,52 +24,6 @@
  },
  {
   "media": "image",
-  "ref": "met:204745",
-  "title": "Scales and weights",
-  "creator": null,
-  "creatorUrl": null,
-  "date": "probably 18th century",
-  "license": "public domain (CC0)",
-  "licenseCode": "cc0",
-  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "creditRequired": false,
-  "page": "https://www.metmuseum.org/art/collection/search/204745",
-  "via": "The Metropolitan Museum of Art",
-  "image": "https://images.metmuseum.org/CRDImages/es/original/DP-17090-080.jpg",
-  "width": 3412,
-  "height": 4000,
-  "bytes": 2442173,
-  "credit": "\"Scales and weights\", probably 18th century, public domain (CC0), via The Metropolitan Museum of Art",
-  "notes": [],
-  "usedAs": [
-   "assets/img/thumb-aspekte.webp"
-  ]
- },
- {
-  "media": "image",
-  "ref": "commons:169341917",
-  "title": "Faber Castell 67 54 Darmstadt slide rule no cursor slide front",
-  "creator": "Slashme",
-  "creatorUrl": null,
-  "date": "2025-07-05",
-  "license": "CC0",
-  "licenseCode": "cc0",
-  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "creditRequired": false,
-  "page": "https://commons.wikimedia.org/wiki/File:Faber_Castell_67_54_Darmstadt_slide_rule_no_cursor_slide_front.jpg",
-  "via": "Wikimedia Commons",
-  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Faber_Castell_67_54_Darmstadt_slide_rule_no_cursor_slide_front.jpg/3840px-Faber_Castell_67_54_Darmstadt_slide_rule_no_cursor_slide_front.jpg",
-  "width": 3840,
-  "height": 1693,
-  "bytes": 952264,
-  "credit": "\"Faber Castell 67 54 Darmstadt slide rule no cursor slide front\" by Slashme, CC0, via Wikimedia Commons",
-  "notes": [],
-  "usedAs": [
-   "assets/img/thumb-rechnen.webp"
-  ]
- },
- {
-  "media": "image",
   "ref": "met:198857",
   "title": "Pocket set of drawing instruments",
   "creator": "Peter Dollond",
@@ -111,7 +65,6 @@
   "credit": "\"Wooden Box with Bronze Balance Scale\" by Coptic maker, 500–600, public domain (CC0), via The Metropolitan Museum of Art",
   "notes": [],
   "usedAs": [
-   "assets/img/thumb-waage.webp",
    "assets/img/video-cover.webp"
   ]
  },

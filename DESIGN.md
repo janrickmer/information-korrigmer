@@ -212,7 +212,7 @@ Eine warme, fast einfarbige Palette aus Weiß, Stein und Tinte, in der Messing s
 - **Display** (300, 2,5–5rem fluid, Zeilenhöhe 1, auf der Unterseite 1,02, −0,035em): nur die H1 von Start- und Unterseite. Die Hero-H1 steht auf höchstens 11ch und ist um 0,04em optisch nach links gezogen; unter 40rem wächst sie auf clamp(2.5rem, 10.5vw, 3rem).
 - **Headline** (300, 1,75–3,25rem, 1,06, −0,03em): Abschnittsüberschriften.
 - **Title** (300, 1,5–2,25rem, 1,12, −0,02em): Titel der Versionskarten; die Abschnittsüberschriften im Rechtstext stehen in derselben Größe in 400.
-- **Problemsatz** (400, clamp(1.5rem, 1rem + 1.6vw, 2.25rem), 1,3, −0,015em): die zentrierte Aussage mit Bildern im Satz, höchstens 46ch; unter 40rem linksbündig in 1,5rem.
+- **Problemsatz** (400, clamp(1.5rem, 1rem + 1.6vw, 2.25rem), 1,3, −0,015em): die zentrierte Aussage, höchstens 46ch; unter 40rem linksbündig in 1,5rem.
 - **Subhead** (500, 1,25–1,5rem, 1,3, −0,01em): Schritte im Ablauf, Kontrastpaar, Zeilenköpfe der Vergleichstabelle, Unterpunkte im Rechtstext; Tafeln setzen sie enger (1,2, −0,015em).
 - **Lead** (400, 1,25–1,5rem, 1,38–1,45): Einleitungs- und Schlusssätze, Leittafel, Aussage im Fuß; Maß 34–44ch.
 - **Body** (400, 17–19px fluid, 1,55): Fließtext und Hinweise, Maß höchstens 64ch, `text-wrap: pretty`.
@@ -241,7 +241,7 @@ Responsiv:
 - **bis 72rem:** Die Bühne überlappt den Hero nicht mehr und liegt vollbreit unter dem Text; die Notiz rückt neben das Eselsohr.
 - **bis 64rem:** Alle Teilungen werden einspaltig, die Live-Demo stapelt, Tafeln laufen zweispaltig. Die Schrittliste erscheint erst darüber.
 - **bis 52rem:** Die Ankerlinks im Kopf entfallen; Wortmarke und kleine Schaltfläche bleiben.
-- **bis 40rem:** Tafeln einspaltig, einfache Tafeln verlieren ihre Fläche (Leit- und Bildtafel behalten sie); die Vergleichstabelle stapelt mit Etiketten; Bilder im Problemsatz und reine Desktop-Bildschirmfotos entfallen; die Replik-Tabelle wird zu Kartenzeilen.
+- **bis 40rem:** Tafeln einspaltig, einfache Tafeln verlieren ihre Fläche (Leit- und Bildtafel behalten sie); die Vergleichstabelle stapelt mit Etiketten; reine Desktop-Bildschirmfotos entfallen; die Replik-Tabelle wird zu Kartenzeilen.
 - Hover-Zustände gelten nur unter `(hover: hover) and (pointer: fine)`.
 
 **Die Tonwechsel-Regel.** Abschnitte trennen sich durch Abstand und Wechsel des Grundes (Weiß, Heller Stein, das eine Tintenfeld), nie durch Linien oder Rahmen.
@@ -264,7 +264,7 @@ Drei Formen und eine Ausnahme. Rechte Winkel (0) für alle Flächen, Abschnitte,
 
 Die eigene Form ist das Eselsohr: Die Bühne ist ein Rechteck, dessen linke obere Ecke im 45°-Winkel abgeschnitten ist wie die geknickte Ecke eines Klausurbogens (`clip-path` mit `--dogear`, Kante clamp(4.5rem, 7vw, 6.5rem), unter 40rem 4.5rem). Wenn sich die Bühne beim Laden öffnet, bleibt die Ecke 45°.
 
-Linien gibt es auf der Seite nicht; Ausnahmen sind die Unterstreichung von Links (0,07em stark, 0,2–0,3em Abstand) und der Fokusring (2px). Archivfotos stehen randlos und werden per `object-fit: cover` beschnitten: im Bildband 4:3, im Videocover 16:9, im Problemsatz als Daumenbilder von 1,45 × 1,05em (breit 1,85 × 1,05em); in der Bildtafel füllt das Foto die Tafel. App-Bildschirmfotos stehen in einem schmalen Rahmen aus Hellem Stein. Repliken behalten die Radien der App (Karte 12px, Tabellenrahmen 10px, Felder 8px), und nur sie.
+Linien gibt es auf der Seite nicht; Ausnahmen sind die Unterstreichung von Links (0,07em stark, 0,2–0,3em Abstand) und der Fokusring (2px). Archivfotos stehen randlos und werden per `object-fit: cover` beschnitten: im Bildband 4:3, im Videocover 16:9; in der Bildtafel füllt das Foto die Tafel. App-Bildschirmfotos stehen in einem schmalen Rahmen aus Hellem Stein. Repliken behalten die Radien der App (Karte 12px, Tabellenrahmen 10px, Felder 8px), und nur sie.
 
 **Die Eselsohr-Regel.** Die abgeschrägte Ecke ist die einzige eigene Form der Welt und gehört der Bühne. Sie wandert nicht auf Karten, Bilder oder Schaltflächen.
 
